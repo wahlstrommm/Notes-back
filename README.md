@@ -79,6 +79,16 @@ created & last_changed använde jag text istället för date timestamp för jag 
 Sista är till för en soft delete istället för att ta bort hela så har jag en boolean som jag sätter till true ifall de har tagit bort den.
 
 Men man kommer ändå kunna se den i översiktet av alla dokument.
+
+---
+# Starta projektet:
+
+npm install
+
+Backend: npm start (annars nodemon start ifall ni har detta)
+
+Frontend: öppna index.html i localhost (live server) genom att högerklicka på filen
+
 ## NPM PAKET
 
   ## mysql2
